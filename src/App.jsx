@@ -842,7 +842,7 @@ export default function App() {
           <a href="https://www.linkedin.com/in/atharva-sawant-3548a031a" target="_blank" rel="noreferrer" className="btn-cyber btn-cyber-primary">
             <i className="fab fa-linkedin"></i> Connect Externally
           </a>
-          <a href="/resume.pdf" download="Atharva_Sawant_Resume.pdf" className="btn-cyber btn-cyber-accent">
+          <a href="/Atharva_Resume.pdf" download="Atharva_Sawant_Resume.pdf" className="btn-cyber btn-cyber-accent">
             <i className="fas fa-file-download"></i> Download Resume
           </a>
         </div>
