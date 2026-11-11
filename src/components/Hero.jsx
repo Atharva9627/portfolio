@@ -28,7 +28,7 @@ export default function Hero() {
              className="flex items-center gap-2 px-5 py-3 bg-blue-600 hover:bg-blue-500 text-white font-medium text-sm rounded-lg transition-all shadow-lg shadow-blue-900/20">
             LinkedIn Profile
           </a>
-          <a href="/resume.pdf" download
+          <a href="/Atharva_Resume.pdf" download
              className="flex items-center gap-2 px-5 py-3 bg-slate-950 hover:bg-slate-900 text-slate-300 font-medium text-sm rounded-lg border border-slate-850 transition-all">
             Download Resume
           </a>
