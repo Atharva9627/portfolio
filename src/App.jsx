@@ -888,10 +888,142 @@ export default function App() {
           </div>
         </section>
 
+        {/* PROFESSIONAL EXPERIENCE */}
+        <section>
+          <div className="section-indicator">
+            <h2 className="section-label">02 // Professional Experience</h2>
+            <div className="glow-line"></div>
+          </div>
+
+          {/* WebCluster Internship */}
+          <div className="project-card-premium">
+            <div className="project-meta-vertical-stack">
+              <div>
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  flexWrap: 'wrap',
+                  gap: '12px'
+                }}>
+                  <h3 className="project-main-title">
+                    WebCluster Private Limited
+                  </h3>
+                  <span className="project-status-tag">
+                    Completed
+                  </span>
+                </div>
+
+                <div className="project-tech-string">
+                  Web Development Intern // June 2026 – September 2026
+                </div>
+
+                <p style={{
+                  color: 'var(--text-muted)',
+                  fontSize: '12px',
+                  marginTop: '8px'
+                }}>
+                  Delhi, India
+                </p>
+              </div>
+            </div>
+
+            <ul className="bullet-list-futuristic">
+              <li>
+                Developed the Dashboard & Reports module for a
+                carpool administration platform using PHP, MySQL,
+                Bootstrap 5, JavaScript, and jQuery.
+              </li>
+              <li>
+                Designed responsive dashboard interfaces featuring
+                statistics cards, charts, recent activities,
+                searchable data tables, filters, pagination,
+                and status indicators.
+              </li>
+              <li>
+                Implemented report-generation and export
+                functionality to help administrators analyze
+                application activity and operational data.
+              </li>
+              <li>
+                Used PDO prepared statements for secure database
+                interactions and followed structured coding
+                practices to reduce SQL injection risks.
+              </li>
+              <li>
+                Developed responsive layouts for desktop and
+                mobile administration workflows.
+              </li>
+            </ul>
+
+            <div className="pill-box" style={{ marginTop: '24px' }}>
+              {["PHP", "MySQL", "Bootstrap 5", "JavaScript", "jQuery", "PDO"].map(tech => (
+                <span key={tech} className="neon-pill">{tech}</span>
+              ))}
+            </div>
+          </div>
+
+          {/* InAmigos Foundation Internship */}
+          <div className="project-card-premium">
+            <div className="project-meta-vertical-stack">
+              <div>
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  flexWrap: 'wrap',
+                  gap: '12px'
+                }}>
+                  <h3 className="project-main-title">
+                    InAmigos Foundation
+                  </h3>
+                  <span className="project-status-tag">
+                    Completed
+                  </span>
+                </div>
+
+                <div className="project-tech-string">
+                  Web Development Intern // June 2026
+                </div>
+
+                <p style={{
+                  color: 'var(--text-muted)',
+                  fontSize: '12px',
+                  marginTop: '8px'
+                }}>
+                  India
+                </p>
+              </div>
+            </div>
+
+            <ul className="bullet-list-futuristic">
+              <li>
+                Completed a Web Development internship focused
+                on practical web application development
+                and implementation.
+              </li>
+              <li>
+                Worked on assigned development tasks according
+                to project requirements.
+              </li>
+              <li>
+                Contributed to the completion of the internship
+                project within the specified timeline.
+              </li>
+            </ul>
+
+            <div className="pill-box" style={{ marginTop: '24px' }}>
+              {["Web Development", "Web Applications"].map(tech => (
+                <span key={tech} className="neon-pill">{tech}</span>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* FEATURED PROJECTS SYSTEM */}
         <section>
           <div className="section-indicator">
-            <h2 className="section-label">02 // Production Build Engineering</h2>
+            <h2 className="section-label">03 // Production Build Engineering</h2>
             <div className="glow-line"></div>
           </div>
 
@@ -1257,7 +1389,7 @@ export default function App() {
         {/* COMPETITIVE MERIT RECORD */}
         <section>
           <div className="section-indicator">
-            <h2 className="section-label">03 // Verified Milestones</h2>
+            <h2 className="section-label">04 // Verified Milestones</h2>
             <div className="glow-line"></div>
           </div>
 
